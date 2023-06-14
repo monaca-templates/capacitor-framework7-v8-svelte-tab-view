@@ -1,0 +1,13 @@
+{
+  "appId": "io.framework7.myapp",
+  "appName": "capacitor-framework7-v8-svelte-tab-view",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
