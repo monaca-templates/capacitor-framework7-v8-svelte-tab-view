@@ -30,6 +30,7 @@
     "@capacitor/keyboard": "^5.0.4",
     "@capacitor/splash-screen": "^5.0.4",
     "@capacitor/status-bar": "^5.0.4",
+    "@trapezedev/configure": "^7.0.10",
     "dom7": "^4.0.6",
     "framework7": "^8.1.0",
     "framework7-icons": "^5.0.5",
