@@ -5,6 +5,10 @@
   "description": "capacitor-framework7-v8-svelte-tab-view",
   "repository": "",
   "license": "UNLICENSED",
+  "engines": {
+    "node": "~18.16.0",
+    "npm": "~9.5.0"
+  },
   "scripts": {
     "start": "npm run dev",
     "dev": "cross-env NODE_ENV=development vite",
@@ -41,6 +45,7 @@
     "swiper": "^9.4.1"
   },
   "devDependencies": {
+    "@capacitor/assets": "^2.0.4",
     "@capacitor/cli": "^5.0.5",
     "@sveltejs/vite-plugin-svelte": "^2.4.1",
     "cordova-res": "^0.15.4",

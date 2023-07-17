@@ -19,10 +19,15 @@ export default async () => {
     publicDir: PUBLIC_DIR,
     build: {
       outDir: BUILD_DIR,
+      target: ['es2017'], // support older browsers
       assetsInlineLimit: 0,
       emptyOutDir: false,
       rollupOptions: {
-        treeshake: false,
+        output: {
+          entryFileNames: `assets/[name].js`,
+          chunkFileNames: `assets/[name].js`,
+          assetFileNames: `assets/[name].[ext]`
+        }
       },
     },
     resolve: {
